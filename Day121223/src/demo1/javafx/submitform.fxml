@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="demo1.Controller.BackController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="830.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <Pane prefHeight="550.0" prefWidth="830.0">
+         <children>
+            <Button onAction="#goToList" layoutX="28.0" layoutY="24.0" mnemonicParsing="false" text="&lt;Back" />
+            <Label layoutX="292.0" layoutY="37.0" text="ADD NEW STUDENT">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <TextField layoutX="197.0" layoutY="101.0" prefHeight="31.0" prefWidth="409.0" promptText="Your ID" />
+            <TextField layoutX="197.0" layoutY="146.0" prefHeight="31.0" prefWidth="409.0" promptText="Your Name" />
+            <TextField layoutX="197.0" layoutY="189.0" prefHeight="31.0" prefWidth="409.0" promptText="Your Email" />
+            <TextField layoutX="197.0" layoutY="234.0" prefHeight="31.0" prefWidth="409.0" promptText="Your Telephone" />
+            <TextField layoutX="197.0" layoutY="276.0" prefHeight="31.0" prefWidth="409.0" promptText="Your Address" />
+            <TextField layoutX="197.0" layoutY="322.0" prefHeight="31.0" prefWidth="409.0" promptText="DOB" />
+            <TextField layoutX="197.0" layoutY="363.0" prefHeight="31.0" prefWidth="409.0" promptText="Action" />
+            <Button onAction="#goToList" layoutX="361.0" layoutY="428.0" mnemonicParsing="false" style="-fx-background-color: gray;" text="Submit" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </content>
+</ScrollPane>
+</Pane>
